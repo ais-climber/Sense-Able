@@ -1,11 +1,18 @@
 ### Home
 
 ### What is Sense-Able?
-It is sensible to use Sense-Able! (Well, you asked...)
+(Forked and edited Fall 2021, Caleb Kisby)
 
-Sense-Able is the sensible choice app to help those with visual impairments explore the world around them.  Using the LeddarTech® LIDAR, Sense-Able helps you avoid walls, pillars, stairs, and more!
+Sense-Able is a research demo / proof-of-concept that I worked on alongside Austin Scampini, Jonathan Senn, Kathryn Vincent, and Jinyu Gao from Fall 2017 - Spring 2018.  During this time, we worked with clients (Peter Mumola and Joel Arenson) on using a LeddarTech® LIDAR sensor to help those with visual impairments avoid walls, pillars, stairs, etc.
 
-Currently, Sense-Able is a research demo, intended to demonstrate the concept (**See the warning below**).  With Sense-Able, you can detect obstacles using a real-time stream, detect obstacles from recorded sample files, or record your own files for testing.
+But we were senior undergrads -- a full-blown assistance tool was probably a bit ambitious.  And so we ended up producing a program that can detect walls and wall corners by fitting the points to a polynomial curve.  Despite this being much simpler for the current me, I'm still proud of what we accomplished.
+
+The companion app we developed provides the following features:
+- A **real-time stream** where you can point the LIDAR to detect walls and wall corners
+- An option to detect via a **recorded stream**
+- An option to **record your own files** for testing.
+
+Sense-Able is **not** in a suitable condition for real-time use by a person with visual impairments -- **See the warning below.**
 
 ### Setup Instructions
 First, download and install the latest release [here!](https://github.com/SCCapstone/Sense-Able/releases)
@@ -19,7 +26,7 @@ Then run the program via the wrapper script from the build directory:
 	./runSenseAbleGui
 
 ### Demonstration
-To see how easy it is to use Sense-Able, please watch this brief video demonstration:
+If you would like to take a look at our app and hardware setup in use, just watch this brief video demonstration:
 [![Link to the Sense-Able Tutorial](https://user-images.githubusercontent.com/31460278/39223618-0ac9d446-4811-11e8-9f74-4ad2ffee8463.png)](https://youtu.be/I3KSW96VbEU "Sense-Able Tutorial")
 
 ### Explore Features
