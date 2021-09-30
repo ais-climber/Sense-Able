@@ -21,9 +21,12 @@ Run the installation script from the terminal:
 
 	sudo ./install-senseable
  
-Then run the program via the wrapper script from the build directory:
+Then run the program via the wrapper script from the `build` directory:
 
 	./runSenseAbleGui
+
+More detailed build instructions can be found in the `docs` directory.  Additionally, I personally wrote up a tutorial
+for using the LeddarTech® SDK (`docs/LeddarSDK-C_Tutorial.pdf`) to help future developers save time where we struggled.
 
 ### Demonstration
 If you would like to take a look at our app and hardware setup in use, just watch this brief video demonstration:
