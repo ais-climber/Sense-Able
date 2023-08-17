@@ -1,7 +1,7 @@
 ### Home
 
 ### What is Sense-Able?
-(Forked and edited Fall 2021, Caleb Kisby)
+(Forked and edited Fall 2021)
 
 Sense-Able is a research demo / proof-of-concept that I worked on alongside Austin Scampini, Jonathan Senn, Kathryn Vincent, and Jinyu Gao from Fall 2017 - Spring 2018.  During this time, we worked with clients (Peter Mumola and Joel Arenson) on using a LeddarTech® LIDAR sensor to help those with visual impairments avoid walls, pillars, stairs, etc.
 
